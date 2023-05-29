@@ -1,0 +1,24 @@
+/* :root {
+    --page-background: #555;
+    --page-text: #ddd;
+}
+
+html,
+body {
+    background-color: var(--page-background);
+    color: var(--page-text);
+}
+
+hr {
+    width: 100%;
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    /* background-color: red; */
+}
